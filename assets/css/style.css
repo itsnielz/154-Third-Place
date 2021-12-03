@@ -19,6 +19,10 @@ body {
     padding-bottom: 20px;
 }
 
+.bg2-2 {
+    background: #fff;
+}
+
 .bg3 {
     background: #fff;
     padding: 30px;
@@ -29,6 +33,10 @@ body {
     background: #FFF4D8;
     padding: 30px;
     border-radius: 30px;
+}
+
+.coffee {
+    padding-top: 80px;
 }
 
 
@@ -59,6 +67,7 @@ ul.navbar-nav {
 }
 
 .content_text {
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -94,11 +103,24 @@ ul.navbar-nav {
 }
 
 
+/* coffee */
+
+.coffee h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
 /* footer */
+
+.footer {
+    /* position: ; */
+    margin-top: 100px;
+    bottom: 0;
+}
 
 .icon {
     font-size: 40px;
-    text-align: center;
 }
 
 .icon i {
