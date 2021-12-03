@@ -1,0 +1,32 @@
+@media screen and (min-width:1024px) and (max-width:1366px) {
+    .class p {
+        font-size: 17px;
+    }
+    .class h3 {
+        font-size: 21px;
+    }
+    .class img {
+        width: 470px;
+    }
+    .photo img {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .class p {
+        font-size: 13px;
+    }
+    .class b {
+        font-size: 14px;
+    }
+    .class h3 {
+        font-size: 21px;
+    }
+    .class img {
+        width: 300px;
+    }
+    .photo img {
+        width: 200px;
+    }
+}

@@ -114,12 +114,40 @@ ul.navbar-nav {
     align-items: center;
 }
 
+.class_text {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.class_text h3 {
+    color: #813709;
+}
+
 .class b {
     font-size: 25px;
 }
 
+.class h2 {
+    color: #813709;
+}
+
+.class h3 {
+    color: #813709;
+}
+
 .class img {
     border-radius: 20px;
+    width: 600px;
+}
+
+.photo img {
+    border-radius: 20px;
+}
+
+.head-text {
+    padding: 30px;
+    text-align: center;
 }
 
 
