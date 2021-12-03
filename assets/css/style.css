@@ -1,3 +1,64 @@
 body {
     font-family: 'Kanit', sans-serif;
+    background: #FFF4D8;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg1 {
+    background: #fff;
+    width: auto;
+    height: 100vh;
+}
+
+.bg2 {
+    background: #fff;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+
+/* container */
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.content_text {
+    margin-bottom: 100px;
+}
+
+.content_img {
+    margin-bottom: 200px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content h5 {
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.content_text p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.content_img img {
+    width: 21.875rem;
+}
+
+.class {
+    text-align: center;
+    align-items: center;
 }
