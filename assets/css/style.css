@@ -14,8 +14,7 @@ body {
 
 .bg2 {
     background: #fff;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -58,6 +57,10 @@ ul.navbar-nav {
     z-index: 99;
 }
 
+.navbar b {
+    color: #fff;
+}
+
 
 /* container */
 
@@ -77,20 +80,29 @@ ul.navbar-nav {
 
 .content h1 {
     text-align: center;
+    color: #813709;
 }
 
 .content h5 {
     text-align: center;
+    color: #813709;
+}
+
+.content h3 {
+    text-align: center;
+    color: #813709;
 }
 
 .content p {
     text-align: center;
     font-size: 24px;
+    color: #813709;
 }
 
 .content_text p {
     font-size: 20px;
     margin-bottom: 5px;
+    color: #813709;
 }
 
 .content_img img {
@@ -100,6 +112,14 @@ ul.navbar-nav {
 .class {
     text-align: center;
     align-items: center;
+}
+
+.class b {
+    font-size: 25px;
+}
+
+.class img {
+    border-radius: 20px;
 }
 
 
