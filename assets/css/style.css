@@ -34,6 +34,14 @@ body {
     border-radius: 30px;
 }
 
+.bg-home {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/4.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
 .coffee {
     padding-top: 80px;
 }
@@ -349,6 +357,12 @@ ul.navbar-nav {
     margin-bottom: 100px;
 }
 
+.content_text1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
 .content_img {
     margin-bottom: 200px;
 }
@@ -387,6 +401,12 @@ ul.navbar-nav {
 .class {
     text-align: center;
     align-items: center;
+}
+
+.class1 {
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
 }
 
 .class_text {
@@ -488,7 +508,7 @@ footer a:hover {
 }
 
 footer i:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
     transition: .5s;
 }
 
