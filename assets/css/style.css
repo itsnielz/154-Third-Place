@@ -44,7 +44,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(../images/254710623_866066767395498_4625614194822457391_n.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -299,6 +299,41 @@ ul.navbar-nav {
 
 .navbar b {
     color: #fff;
+}
+
+
+/* nav-right */
+
+.nav-right {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    color: #37251F;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    transform: scale(1.5);
+    transition: .5s;
+    cursor: pointer;
 }
 
 
