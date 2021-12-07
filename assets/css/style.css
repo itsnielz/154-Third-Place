@@ -38,12 +38,31 @@ body {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/4.jpg);
     height: 100vh;
     background-size: cover;
-    text-align: center;
     align-items: center;
+    padding-top: 150px;
+}
+
+.bg-home2 {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg2.jpg);
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    padding-top: 100px;
 }
 
 .coffee {
     padding-top: 80px;
+}
+
+
+/* font about */
+
+.font-about1 h1 {
+    font-size: 80px;
+}
+
+.font-about1 p {
+    font-size: 25px;
 }
 
 
@@ -405,8 +424,11 @@ ul.navbar-nav {
 
 .class1 {
     text-align: center;
-    align-items: center;
-    padding-top: 150px;
+    align-items: center !important;
+}
+
+.class1 p {
+    font-size: 24px;
 }
 
 .class_text {
