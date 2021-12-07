@@ -49,52 +49,30 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1200px) {
-    li.nav-item :hover {
-        color: #37251F;
-        transform: scale(1.05);
+@media screen and (min-width:320px) and (max-width:568px) {
+    .class img {
+        width: 70px;
     }
-    ul.navbar-nav {
-        text-align: center;
+    .class p {
+        font-size: 9px;
     }
-    .navbar {
-        padding: 10px 30px;
-        position: fixed;
-        width: 100%;
-        z-index: 99;
+    .class b {
+        font-size: 12px;
     }
-    .navbar b {
-        color: #fff;
+    .class1 p {
+        font-size: 9px;
     }
-    nav .bi {
-        display: none;
+    .class h3 {
+        font-size: 12px;
     }
-    .nav-links {
-        flex: 1;
-        text-align: right;
+    .class-img img {
+        width: 70px;
     }
-    .nav-links ul li {
-        list-style: none;
-        display: inline-block;
-        padding: 8px 12px;
-        position: relative;
+    .photo img {
+        width: 70px;
     }
-    .nav-links ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    .nav-links ul li ::after {
-        content: '';
-        width: 0%;
-        height: 2px;
-        background: #fff;
-        display: block;
-        margin: auto;
-        transition: 0.5s;
-    }
-    .nav-links ul li :hover::after {
-        width: 100%;
+    .content_text h3 {
+        font-size: 15px;
     }
 }
 
