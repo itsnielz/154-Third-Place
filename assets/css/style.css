@@ -48,8 +48,6 @@ html {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg2.jpg);
     height: 100vh;
     background-size: cover;
-    align-items: center;
-    padding-top: 100px;
 }
 
 .bg-home3 {
@@ -400,8 +398,8 @@ ul.navbar-nav {
 }
 
 .content_text1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: #fff;
 }
 
@@ -502,7 +500,6 @@ ul.navbar-nav {
 
 .class-img img {
     border-radius: 20px;
-    width: 600px;
 }
 
 .photo img {
