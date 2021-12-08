@@ -4,6 +4,10 @@ body {
     background-size: cover;
 }
 
+html {
+    font-size: calc(60%+0.8vmin);
+}
+
 .bg1 {
     background: #fff;
     width: auto;
@@ -74,11 +78,16 @@ body {
 /* font about */
 
 .font-about1 h1 {
-    font-size: 80px;
+    font-size: 5vw;
 }
 
 .font-about1 p {
-    font-size: 25px;
+    font-size: 2vw;
+}
+
+iframe {
+    width: 31.25rem;
+    height: 21.875rem;
 }
 
 
@@ -424,7 +433,7 @@ ul.navbar-nav {
 }
 
 .content_text p {
-    font-size: 20px;
+    font-size: 1.1vw;
     margin-bottom: 5px;
     color: #813709;
 }
@@ -444,7 +453,7 @@ ul.navbar-nav {
 }
 
 .class1 p {
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .class_text {
@@ -455,6 +464,7 @@ ul.navbar-nav {
 
 .class_text h3 {
     color: #813709;
+    font-size: 2vw;
 }
 
 .class b {
@@ -466,6 +476,7 @@ ul.navbar-nav {
 }
 
 .class h3 {
+    font-size: 2vw;
     color: #813709;
 }
 
