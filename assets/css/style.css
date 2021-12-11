@@ -146,6 +146,15 @@ nav .bi {
     width: 100%;
 }
 
+svg.fas fa-sort-down {
+    width: 20px;
+    height: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 /* header2 */
 

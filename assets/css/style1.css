@@ -1,0 +1,14 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background: #FFF4D8;
+    background-size: cover;
+}
+
+.navbar img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.dropdown-menu a {
+    align-items: center;
+}
