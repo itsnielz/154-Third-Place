@@ -146,6 +146,15 @@ nav .bi {
     width: 100%;
 }
 
+svg.fas fa-sort-down {
+    width: 20px;
+    height: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 /* header2 */
 
@@ -508,8 +517,11 @@ ul.navbar-nav {
 /* container */
 
 .content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    padding: 300px 0px 300px 0px;
+    font-size: 25px;
 }
 
 .content_text {
