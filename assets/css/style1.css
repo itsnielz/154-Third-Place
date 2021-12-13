@@ -2,17 +2,18 @@ body {
     font-family: 'Kanit', sans-serif;
     background: #FFF4D8;
     background-size: cover;
+    width: 100%;
 }
 
 .navbar {
     padding-top: 40px;
-    background-color: rgba(0, 0, 0, 0);
+    background: #fff;
     position: absolute;
     width: 100%;
 }
 
 .navbar b {
-    color: #fff;
+    color: rgb(48, 31, 31);
 }
 
 .navbar i {
