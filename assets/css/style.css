@@ -107,6 +107,10 @@ iframe {
     width: 70px;
 }
 
+nav {
+    padding: 100px 0 100px 0;
+}
+
 
 /* nav {
     display: flex;
@@ -463,8 +467,14 @@ nav .bi {
 
 /* nav */
 
+.navbar-light {}
+
+li.nav-item {
+    color: #fff;
+}
+
 li.nav-item :hover {
-    color: #37251F;
+    color: #fff;
     transform: scale(1.05);
 }
 
