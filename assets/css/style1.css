@@ -7,13 +7,16 @@ body {
 
 .navbar {
     padding-top: 40px;
-    background: #fff;
     position: absolute;
     width: 100%;
 }
 
-.navbar b {
-    color: rgb(48, 31, 31);
+.navbar p {
+    color: #fff;
+}
+
+.dropdown-menu p {
+    color: #000;
 }
 
 .navbar i {
@@ -30,6 +33,14 @@ body {
 }
 
 .banner {
+    background-image: url(../images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
     background-image: url(../images/bg.jpg);
     width: 100%;
     height: 100vh;
