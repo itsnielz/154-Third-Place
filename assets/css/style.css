@@ -108,7 +108,15 @@ iframe {
 }
 
 nav {
-    padding: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+
+.dropdown-item {
+    background: #523726;
 }
 
 
@@ -467,8 +475,6 @@ nav .bi {
 
 /* nav */
 
-.navbar-light {}
-
 li.nav-item {
     color: #fff;
 }
@@ -476,6 +482,22 @@ li.nav-item {
 li.nav-item :hover {
     color: #fff;
     transform: scale(1.05);
+    text-decoration: none;
+}
+
+li.dropdown-item:hover {
+    color: #fff;
+    transform: scale(1.05);
+    text-decoration: none;
+    background: #523726;
+}
+
+.dropdown-item a:hover {
+    background: #523726;
+}
+
+.dropdown-menu {
+    background: #523726;
 }
 
 ul.navbar-nav {
