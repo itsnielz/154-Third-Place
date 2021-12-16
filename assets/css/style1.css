@@ -5,33 +5,6 @@ body {
     width: 100%;
 }
 
-.navbar {
-    padding-top: 40px;
-    position: absolute;
-    width: 100%;
-}
-
-.navbar p {
-    color: #fff;
-}
-
-.dropdown-menu p {
-    color: #000;
-}
-
-.navbar i {
-    color: #fff;
-}
-
-.navbar img {
-    width: 70px;
-    border-radius: 50px;
-}
-
-.dropdown-menu a {
-    align-items: center;
-}
-
 .banner {
     background-image: url(../images/bg.jpg);
     width: 100%;
@@ -51,6 +24,90 @@ body {
 
 /* nav */
 
+.navbar {
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    transition: .5s;
+}
+
+.navbar p {
+    color: #fff;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.dropdown-menu p {
+    color: #000;
+    text-align: center;
+}
+
+.navbar i {
+    color: #fff;
+}
+
+.navbar img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.dropdown-menu a {
+    align-items: center;
+}
+
 .navbar li :hover {
     transform: scale(1.05);
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar span {
+    background-image: #fff;
+}
+
+.navbar {
+    position: fixed;
+}
+
+
+/* ss */
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    /* sticky or fixed are fine */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #0003 1%, #0000);
+    /* background when scroll is in the top */
+    transition: background .5s;
+    /* control how smooth the background changes */
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav.scrolled {
+    background: white;
+    transition: .5s;
+    padding: 10px
+}
+
+.afterTextScrolled li a p {
+    color: rgba(56, 40, 21, 0.836) !important;
+    font-weight: bold;
+}
+
+.afterTextScrolled li a p i {
+    color: rgba(56, 40, 21, 0.836) !important;
+}
+
+nav.scrolled li {
+    color: #000;
+}
+
+main {
+    height: 200vh;
 }

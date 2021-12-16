@@ -77,6 +77,18 @@
 }
 /*  */
 
+@media(max-width:991px) {
+    .navbar {
+        background-color: #fff;
+    }
+    .navbar p {
+        color: #000;
+    }
+    .navbar i {
+        color: #000;
+    }
+}
+
 @media(max-width:700px) {
     .text-box h1 {
         font-size: 20px;
