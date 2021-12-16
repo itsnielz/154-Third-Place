@@ -41,9 +41,16 @@ body {
 }
 
 .banner2 {
-    background-image: url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/255003790_866066740728834_8726365962187179833_n.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+
+/* nav */
+
+.navbar li :hover {
+    transform: scale(1.05);
 }
