@@ -89,8 +89,8 @@
     }
 }
 
-@media(max-width:700px) {
-    .text-box h1 {
+@media(max-width:991px) {
+    /* .text-box h1 {
         font-size: 20px;
     }
     .nav-links ul li {
@@ -117,7 +117,7 @@
     .nav-links ul li {
         padding: 30px;
         text-align: center;
-    }
+    } */
     .nav-right {
         display: none;
     }
