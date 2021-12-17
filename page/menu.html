@@ -58,21 +58,94 @@
     </header> -->
 
     <section class="header">
-        <nav>
-            <a href="../index.html"><img src="../assets/images/Logo/logo.jpg"></a>
-            <div class="nav-links " id=navlinks>
-                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./page/Signature.html">Signature</a></li>
-                    <li><a href="./page/coffee.html">Coffee</a></li>
-                    <li><a href="./page/cake.html">Cake</a></li>
-                    <li><a href="./page/cha.html">Tea</a></li>
-                    <li><a href="./page/soda.html">Soda</a></li>
-                    <li><a href="./index.html">About</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light scrolled ">
+            <div class="container">
+                <a href="./index.html"><img src="../assets/images/Logo/logo.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-text">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">
+                                <p> Home <i class="bi bi-house-fill"></i></p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <p> promotion <i class="bi bi-stars"></i> </p>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <p> Menu <i class="bi bi-caret-down-fill"></i></p>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="Signature.html">
+                                        <p>Signature Menu</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="coffee.html">
+                                        <p> Coffee </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="coffee-tonic.html">
+                                        <p> Coffee Tonic </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="coffee-drip.html">
+                                        <p> Coffe Drip </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="tea.html">
+                                        <p> Tea </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="milk.html">
+                                        <p> Milk </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="chocolate.html">
+                                        <p> Chocolate </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="soda.html">
+                                        <p> ItalianSoda </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="smoothy.html">
+                                        <p> Smoothy </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cake.html">
+                                        <p> Cake </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <p>Blog <i class="bi bi-pencil-square"></i></p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <p> Contact <i class="bi bi-telephone-fill"></i></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <i class="bi bi-list" onclick="showMenu()"></i>
         </nav>
 
     </section>

@@ -102,13 +102,6 @@ body {
 }
 
 
-/* .bg_coffee {
-    background: #fff;
-    width: 100%;
-    padding: 100px 0px 100px 0px;
-} */
-
-
 /* img */
 
 .img-menu {
@@ -206,8 +199,7 @@ body {
 
 /* nav-right */
 
-
-/* .nav-right {
+.nav-right {
     position: fixed;
     top: 50%;
     right: 0px;
@@ -237,7 +229,7 @@ body {
     transform: scale(1.5);
     transition: .5s;
     cursor: pointer;
-} */
+}
 
 
 /* nav scroll */
