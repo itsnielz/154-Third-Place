@@ -1,0 +1,33 @@
+.input-group-addon>a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-addtocart-box {
+    text-align: center;
+}
+
+.btn-addtocart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: #2860aa solid 2px;
+}
+
+.btn-addtocart:hover {
+    background: #2860aa;
+    color: white;
+}
+
+.btn-ch {
+    width: 40px;
+}
+
+.input-count{
+    width: 160px;
+}
+
+/* .card {
+    width: 300px;
+    height: 700px;
+} */
