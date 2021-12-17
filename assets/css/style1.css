@@ -84,8 +84,8 @@ body {
 
 .btn {
     padding: 10px;
-    width: 200px;
-    font-size: 2.6vw;
+    width: auto;
+    font-size: 2vw;
     background-color: #37251F;
     border-radius: 15px;
     border: 1px solid #cbcbcb;
@@ -121,6 +121,23 @@ body {
 .content-promotion img {
     text-align: center;
     position: relative;
+}
+
+.img-promotion {
+    position: fixed;
+    bottom: 10px;
+    text-align: right;
+    width: 100%;
+    right: 20px;
+    height: auto;
+    display: sticky;
+    z-index: 1020;
+    margin: 10px;
+}
+
+.img-promotion img {
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -188,7 +205,8 @@ body {
 
 /* nav-right */
 
-.nav-right {
+
+/* .nav-right {
     position: fixed;
     top: 50%;
     right: 0px;
@@ -218,7 +236,7 @@ body {
     transform: scale(1.5);
     transition: .5s;
     cursor: pointer;
-}
+} */
 
 
 /* nav scroll */

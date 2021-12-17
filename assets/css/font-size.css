@@ -18,6 +18,10 @@
     color: #fff;
 }
 
+.bg_footer p {
+    font-size: 1.5vw;
+}
+
 .bg_footer i {
     padding-right: 10px;
 }
