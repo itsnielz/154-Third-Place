@@ -1,0 +1,40 @@
+.content_text p {
+    align-items: center !important;
+    text-align: center;
+}
+
+.content_text h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 7vw;
+}
+
+.content_text p {
+    font-size: 1.5vw;
+}
+
+.bg_footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg_footer i {
+    padding-right: 10px;
+}
+
+.icon_center i {
+    font-size: 1.5vw;
+    padding-bottom: 10px;
+}
+
+.content-promotion p {
+    font-size: 4vw;
+}
+
+.menu-text h1 {
+    font-size: 4vw;
+}
+
+.menu-text p {
+    font-size: 1.5vw;
+}

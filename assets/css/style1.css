@@ -5,18 +5,154 @@ body {
     width: 100%;
 }
 
-.navbar {
-    padding-top: 40px;
+.banner {
+    background-image: url(../images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_coffee {
+    background-image: url(../images/coffee1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_cake {
+    background-image: url(../images/cake.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_content {
+    background: rgb(247, 238, 213);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.bg_content_1 {
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+}
+
+.content_img img {
+    align-items: center !important;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.content_img {
+    text-align: center;
+}
+
+.content_text {
+    text-align: center;
+}
+
+.content_text button {
+    margin-top: 50px;
+}
+
+
+/* btn */
+
+.bton {
+    width: 200px;
+    height: 50px;
+    background: #37251F;
+    border-radius: 15px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px;
+    width: 200px;
+    font-size: 2.6vw;
+    background-color: #37251F;
+    border-radius: 15px;
+    border: 1px solid #cbcbcb;
+}
+
+
+/* bg */
+
+.bg_Promotion {
+    background: #fff;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+
+/* .bg_coffee {
+    background: #fff;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+} */
+
+
+/* img */
+
+.img-menu {
+    text-align: center !important;
+}
+
+.img-bder img {
+    border-radius: 30px;
+}
+
+.content-promotion img {
+    text-align: center;
+    position: relative;
+}
+
+
+/* shap */
+
+.shape-container {
     position: absolute;
     width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+
+
+/* nav */
+
+.navbar {
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    transition: .5s;
+    z-index: 999;
 }
 
 .navbar p {
     color: #fff;
+    padding: 5px 10px 5px 10px !important;
+    margin: 0px !important;
 }
 
 .dropdown-menu p {
     color: #000;
+    text-align: center;
 }
 
 .navbar i {
@@ -32,25 +168,101 @@ body {
     align-items: center;
 }
 
-.banner {
-    background-image: url(../images/bg.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.nav-item a {
+    padding: 0px 20px 0px 20px;
 }
-
-.banner2 {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/255003790_866066740728834_8726365962187179833_n.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-
-/* nav */
 
 .navbar li :hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+}
+
+.navbar {
+    text-align: center;
+    position: fixed;
+}
+
+.navbar span {
+    background-image: #fff;
+}
+
+
+/* nav-right */
+
+.nav-right {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    color: #37251F;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    transform: scale(1.5);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+/* nav scroll */
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    /* sticky or fixed are fine */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background when scroll is in the top */
+    transition: background .5s;
+    /* control how smooth the background changes */
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav.scrolled {
+    background: white;
+    transition: .5s;
+    padding: 10px;
+    font-weight: 15px;
+}
+
+.afterTextScrolled li a p {
+    color: rgba(56, 40, 21, 0.836) !important;
+}
+
+.afterTextScrolled li a p i {
+    color: rgba(56, 40, 21, 0.836) !important;
+}
+
+nav.scrolled li {
+    color: #000;
+}
+
+
+/* footer */
+
+.bg_footer {
+    background-color: #37251F;
+    width: 100%;
+    height: 30vh;
+    padding: 30px 0px 30px 0px;
+    color: #fff;
 }
