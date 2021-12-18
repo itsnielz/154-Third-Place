@@ -23,6 +23,18 @@
     width: 40px;
 }
 
-.input-count{
+.input-count {
     width: 160px;
+}
+
+.card-body>h5 {
+    text-align: center;
+}
+
+.card-body>p {
+    text-align: center;
+}
+
+.d-block p{
+    font-size: 25px;
 }
