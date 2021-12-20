@@ -89,10 +89,16 @@ iframe {
 
 /* menu */
 
+.menu img:hover {
+    transform: scale(1.05);
+    transition: .5s;
+    cursor: pointer;
+}
+
 .menu img {
     border-radius: 20px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 100%;
 }
 
 
