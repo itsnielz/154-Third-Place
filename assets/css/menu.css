@@ -36,6 +36,14 @@
     text-align: center;
 }
 
-.d-block p{
+.d-block p {
     font-size: 25px;
+}
+
+.card img {
+    transition: transform 1.0s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
 }
