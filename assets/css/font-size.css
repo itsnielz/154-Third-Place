@@ -42,3 +42,18 @@
 .menu-text p {
     font-size: 1.5vw;
 }
+
+.menu p {
+    font-size: 2vw;
+    text-align: center;
+    color: #3d322e;
+}
+
+.menu_header {
+    font-size: 3vw;
+    margin-bottom: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+}

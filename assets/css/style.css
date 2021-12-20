@@ -87,6 +87,15 @@ iframe {
 }
 
 
+/* menu */
+
+.menu img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+
 /* header */
 
 .header {
